@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Jonathan's Emerging Web Technologies and Trends class portfolio">
-  <title>Jonathan | Emerging Web Technologies & Trends</title>
+  <meta name="description" content="Web Trends Report covering five emerging trends in web development">
+  <title>Emerging Web Trends 2026 | Jonathan</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -13,71 +13,268 @@
       <a class="brand" href="index.html">Jonathan <span>Web Portfolio</span></a>
       <nav aria-label="Main navigation">
         <ul class="nav-list">
-          <li><a class="active" href="index.html">Home</a></li>
-          <li><a href="trends.html">LP1 Trends Report</a></li>
-          <li><span class="disabled-link">LP1 Projects</span></li>
-          <li><span class="disabled-link">LP2 Projects</span></li>
-          <li><span class="disabled-link">LP3 Projects</span></li>
-          <li><span class="disabled-link">LP4 Project</span></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a class="active" href="trends.html">LP1 Trends Report</a></li>
+          <li><a href="#" aria-disabled="true">LP1 Projects</a></li>
+          <li><a href="#" aria-disabled="true">LP2 Projects</a></li>
+          <li><a href="#" aria-disabled="true">LP3 Projects</a></li>
+          <li><a href="#" aria-disabled="true">LP4 Project</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
   <main>
-    <section class="hero">
-      <div class="wrap hero-grid">
-        <div>
-          <p class="eyebrow">152-117 • Emerging Web Technologies & Trends</p>
-          <h1>Class Portfolio</h1>
-          <p class="lead">
-            This site will collect my research and projects from each learning plan as I explore
-            new web standards, tools, design approaches, and technologies.
-          </p>
-          <a class="button" href="trends.html">View LP1 Trends Report</a>
+    <section class="report-hero">
+      <div class="wrap">
+        <p class="eyebrow">Learning Plan 1 • Emerging Web Trends</p>
+        <h1>Web Development Trends Shaping 2026</h1>
+        <p class="lead">
+          The web keeps changing as new tools, security methods, design techniques, and user habits
+          become more common. I chose five trends that stand out to me because each one could affect
+          how developers build, secure, deliver, or promote websites in the near future.
+        </p>
+        <div class="rating-key" aria-label="Importance rating scale">
+          <strong>Developer Relevance:</strong>
+          <span>1 = Nice to Know</span>
+          <span>2 = Somewhat Useful</span>
+          <span>3 = Worth Learning</span>
+          <span>4 = High Priority</span>
+          <span>5 = Must Know</span>
         </div>
-        <aside class="hero-card" aria-label="Portfolio overview">
-          <p class="mini-label">Current work</p>
-          <h2>Learning Plan 1</h2>
-          <p>Researching emerging web trends and deciding which ones developers should be learning now.</p>
-        </aside>
       </div>
     </section>
 
     <section class="wrap section">
-      <h2>Portfolio Roadmap</h2>
-      <p class="section-intro">
-        The navigation and design of this site are set up so each class project can be added without
-        rebuilding the portfolio at the end of the course.
-      </p>
-      <div class="roadmap-grid">
-        <article class="roadmap-card current">
-          <span>LP1</span>
-          <h3>Emerging Trends</h3>
-          <p>Web Trends Report and two projects.</p>
+      <div class="trend-grid">
+
+        <article class="trend-card">
+          <div class="trend-top">
+            <span class="trend-number">01</span>
+            <span class="rating">3 / 5</span>
+          </div>
+          <h2>Social Search / Social SEO</h2>
+          <p>
+            Search behavior is spreading beyond traditional search engines. People now use social
+            platforms to look for reviews, recommendations, tutorials, places to visit, and products
+            before they ever open Google. That changes what “being searchable” means for a business.
+            A developer may not manage a company's social accounts, but understanding social search
+            can still influence site content, metadata, landing pages, and the way a brand connects
+            its website with the places where customers are already searching.
+          </p>
+          <div class="standard-call">
+            <h3>Will it become a standard?</h3>
+            <p>
+              <strong>I think it will become a normal part of web strategy.</strong> Traditional search
+              is not going away, but websites will increasingly be planned alongside social content
+              because users move back and forth between both when deciding what to trust or buy.
+            </p>
+          </div>
+          <a class="source-link" href="https://sproutsocial.com/insights/?p=173051" target="_blank" rel="noopener">
+            Research source: Sprout Social, The State of Social Media in 2026
+          </a>
         </article>
-        <article class="roadmap-card">
-          <span>LP2</span>
-          <h3>Emerging Technologies</h3>
-          <p>Project pages will be added here.</p>
+
+        <article class="trend-card">
+          <div class="trend-top">
+            <span class="trend-number">02</span>
+            <span class="rating">5 / 5</span>
+          </div>
+          <h2>Passkeys & Passwordless Authentication</h2>
+          <p>
+            Passkeys are changing the familiar username-and-password login process. Instead of asking
+            users to remember another password, a site can authenticate them with a trusted device,
+            fingerprint, face scan, or device PIN. The security benefit is just as important as the
+            convenience because passkeys are designed to resist common phishing attacks. Any developer
+            working with user accounts, shopping systems, or private data should understand how this
+            approach changes both security and the sign-in experience.
+          </p>
+          <div class="standard-call">
+            <h3>Will it become a standard?</h3>
+            <p>
+              <strong>Yes, I expect this to become common.</strong> Passwords create too many security
+              and usability problems. As browsers, devices, and major services continue supporting
+              passkeys, passwordless sign-in should become something users expect rather than a rare feature.
+            </p>
+          </div>
+          <a class="source-link" href="https://developers.google.com/identity/passkeys" target="_blank" rel="noopener">
+            Research source: Google for Developers, Passkeys
+          </a>
         </article>
-        <article class="roadmap-card">
-          <span>LP3</span>
-          <h3>New Web Software</h3>
-          <p>Project pages will be added here.</p>
+
+        <article class="trend-card">
+          <div class="trend-top">
+            <span class="trend-number">03</span>
+            <span class="rating">3 / 5</span>
+          </div>
+          <h2>Edge Computing</h2>
+          <p>
+            Edge computing is about doing more work closer to the person using a website instead of
+            sending every request to one distant server. That can reduce delay and make an application
+            feel faster for users in different parts of the world. Services such as Cloudflare now let
+            developers run application logic and store data across distributed networks. I see this as
+            especially important for larger or performance-sensitive web applications where response
+            time and reliability matter.
+          </p>
+          <div class="standard-call">
+            <h3>Will it become a standard?</h3>
+            <p>
+              <strong>Probably, but mostly behind the scenes.</strong> I think more hosting platforms
+              will use edge infrastructure automatically. Developers may benefit from it without
+              thinking about every physical server location, but understanding the concept will still matter.
+            </p>
+          </div>
+          <a class="source-link" href="https://developers.cloudflare.com/use-cases/web-apps/" target="_blank" rel="noopener">
+            Research source: Cloudflare Developers, Web Sites and Web Apps
+          </a>
         </article>
-        <article class="roadmap-card">
-          <span>LP4</span>
-          <h3>Staying Current</h3>
-          <p>Resources and tools for continued learning.</p>
+
+        <article class="trend-card">
+          <div class="trend-top">
+            <span class="trend-number">04</span>
+            <span class="rating">3 / 5</span>
+          </div>
+          <h2>WebGPU</h2>
+          <p>
+            WebGPU gives browser applications much better access to a device's graphics processor.
+            That opens the door to smoother 3D graphics, advanced visualizations, browser games, and
+            other demanding tasks that once fit better in desktop software. It can also be used for
+            non-graphics work that benefits from GPU processing. I do not think every web developer
+            needs to master WebGPU immediately, but it is worth watching because it raises the ceiling
+            on what a browser-based application can realistically do.
+          </p>
+          <div class="standard-call">
+            <h3>Will it become a standard?</h3>
+            <p>
+              <strong>Yes, within specialized web development.</strong> It probably will not become
+              something every basic website uses, but I expect it to become a normal choice for
+              high-performance graphics, interactive 3D work, creative applications, and similar projects.
+            </p>
+          </div>
+          <a class="source-link" href="https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API" target="_blank" rel="noopener">
+            Research source: MDN Web Docs, WebGPU API
+          </a>
         </article>
+
+        <article class="trend-card featured-trend">
+          <div class="trend-top">
+            <span class="trend-number">05</span>
+            <span class="rating">4 / 5</span>
+          </div>
+          <h2>CSS Container Queries</h2>
+          <p>
+            Container queries make responsive design more flexible by letting a component react to the
+            space it actually has available. Traditional media queries usually look at the width of the
+            whole browser window, while a container query can look at the width of a parent element.
+            That means the same card or content block can work in a sidebar, full-width section, or
+            different page layout without needing separate versions. This fits well with modern sites
+            that are built from reusable components.
+          </p>
+          <div class="standard-call">
+            <h3>Will it become a standard?</h3>
+            <p>
+              <strong>Yes.</strong> This solves a real responsive-design problem and works naturally
+              with reusable components. I think container queries will become another normal CSS tool
+              developers reach for alongside media queries.
+            </p>
+          </div>
+          <a class="source-link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Containment/Container_queries" target="_blank" rel="noopener">
+            Research source: MDN Web Docs, CSS Container Queries
+          </a>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="demo-section">
+      <div class="wrap">
+        <p class="eyebrow">Trend Demonstration</p>
+        <h2>Responsive to the Component, Not Just the Screen</h2>
+        <p class="section-intro">
+          This example puts container queries to work. On a desktop browser, resize the dashed demo
+          area from its lower-right corner. The content card changes its layout when its own container
+          crosses a set width, even though the browser window itself has not changed size.
+        </p>
+
+        <div class="resizable-demo">
+          <article class="cq-card">
+            <div class="cq-visual" aria-hidden="true">
+              <span>&lt;/&gt;</span>
+            </div>
+            <div>
+              <p class="mini-label">INTERACTIVE CSS EXAMPLE</p>
+              <h3>The same component can adapt to different spaces</h3>
+              <p>
+                As this container gets wider, the card switches from a stacked layout to a side-by-side
+                layout. The change comes from an <code>@container</code> rule in the stylesheet rather
+                than a normal viewport media query.
+              </p>
+            </div>
+          </article>
+        </div>
+
+        <p class="demo-note">
+          Demonstrated trend: <strong>CSS Container Queries</strong>. The page also uses semantic HTML,
+          responsive layouts, readable contrast, keyboard focus styling, and reduced-motion support.
+        </p>
+      </div>
+    </section>
+
+    <section class="wrap section">
+      <h2>How I Rank These Trends</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">Trend</th>
+              <th scope="col">Developer Relevance</th>
+              <th scope="col">Where I Think It Is Going</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Passkeys / Passwordless Authentication</td><td>5 / 5</td><td>Expected to become common</td></tr>
+            <tr><td>CSS Container Queries</td><td>4 / 5</td><td>Becoming a normal CSS technique</td></tr>
+            <tr><td>Social Search / Social SEO</td><td>3 / 5</td><td>Growing part of web strategy</td></tr>
+            <tr><td>Edge Computing</td><td>3 / 5</td><td>Likely to become more invisible and automatic</td></tr>
+            <tr><td>WebGPU</td><td>3 / 5</td><td>Strong future in specialized applications</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="sources-section">
+      <div class="wrap">
+        <h2>Research & References</h2>
+        <ol class="sources">
+          <li>
+            Nicholson, Benedict. “The State of Social Media in 2026.” <em>Sprout Social</em>, June 22, 2026.
+            <a href="https://sproutsocial.com/insights/?p=173051" target="_blank" rel="noopener">View source</a>
+          </li>
+          <li>
+            Google for Developers. “Passkeys.” Updated April 15, 2026.
+            <a href="https://developers.google.com/identity/passkeys" target="_blank" rel="noopener">View source</a>
+          </li>
+          <li>
+            Cloudflare Developers. “Web Sites and Web Apps.” Updated April 24, 2026.
+            <a href="https://developers.cloudflare.com/use-cases/web-apps/" target="_blank" rel="noopener">View source</a>
+          </li>
+          <li>
+            MDN Web Docs. “WebGPU API.”
+            <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API" target="_blank" rel="noopener">View source</a>
+          </li>
+          <li>
+            MDN Web Docs. “CSS Container Queries.”
+            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Containment/Container_queries" target="_blank" rel="noopener">View source</a>
+          </li>
+        </ol>
+        <p class="access-note">Sources accessed September 7, 2026.</p>
       </div>
     </section>
   </main>
 
   <footer>
     <div class="wrap">
-      <p>Jonathan • Emerging Web Technologies & Trends • 2026</p>
+      <p>Jonathan • 152-117 Emerging Web Technologies & Trends • 2026</p>
     </div>
   </footer>
 </body>
